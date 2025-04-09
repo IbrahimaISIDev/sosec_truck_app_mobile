@@ -1,0 +1,26 @@
+lib/
+├── core/
+│   ├── themes/
+│   │   └── app_theme.dart
+│   ├── constants/
+│   │   └── colors.dart
+│   └── models/
+│       └── task.dart
+├── features/
+│   ├── auth/
+│   │   ├── widgets/
+│   │   │   └── auth_text_field.dart
+│   │   ├── providers/
+│   │   │   └── auth_provider.dart
+│   │   └── login_screen.dart
+│   └── home/
+│       ├── widgets/
+│       │   ├── action_card.dart
+│       │   ├── task_item.dart
+│       │   └── header.dart
+│       ├── providers/
+│       │   └── home_provider.dart
+│       └── home_screen.dart
+├── widgets/
+│   └── bottom_nav_bar.dart
+└── main.dart

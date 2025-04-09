@@ -1,0 +1,25 @@
+name: sosec_truck_app_mobile
+description: Application de gestion de camions pour SOSEC
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2 # Gestion d'état
+  flutter_screenutil: ^5.9.3 # Responsive design
+  google_fonts: ^6.2.1 # Pour les polices personnalisées
+  camera: ^0.10.6 # Pour gérer la caméra
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
